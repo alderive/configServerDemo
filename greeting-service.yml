@@ -1,3 +1,8 @@
+#Spring properties
+spring:
+  application:
+     name: greeting-service  # Service registers under this name
+     
 # HTTP Server
 server:  
   port: 1088  # HTTP port
@@ -7,3 +12,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+      
+
+
