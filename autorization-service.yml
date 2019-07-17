@@ -1,1 +1,14 @@
+#Spring properties
+spring:
+  application:
+     name: autorization-service  # Service registers under this name
+     
+# HTTP Server
+server:  
+  port: 2000  # HTTP port
 
+# Discovery Server Access
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
